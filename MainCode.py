@@ -56,13 +56,13 @@ async def url_market(message: types.message):
 async def facts(message: types.message):
     number = r.randint(0,10)
     if number == 1:
-        await message.reply('kekek')
+        await message.reply('На территории дружины , есть большой стул , который построила семья ,однажды проживающая в "Созвездии". Все кто хочет может загадать желание связанное с семьей, возле него.')
     if number == 2:
-        await message.reply('kekek')
+        await message.reply('Изначально в " Созвездии" были только весенние и летние смены')
     if number == 3:
-        await message.reply('kekek')
+        await message.reply('На главном корпусе есть Знаки зодиака под которыми по традиции фотографируются, и загадывают желания!')
     if number == 4:
-        await message.reply('kekek')
+        await message.reply('У "Созвездия" есть свой маскот Звездун')
     if number == 5:
         await message.reply('kekek')
     if number == 6:
